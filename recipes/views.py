@@ -6,7 +6,3 @@ def home(request):
     #http response
     return render(request, 'home.html')
 
-def my_view(request):
-    #http response
-    
-    return HttpResponse('ISSO IRÁ APARECER NO CORPO DO HTML, Página Sobre')
